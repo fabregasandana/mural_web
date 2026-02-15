@@ -1,54 +1,49 @@
 // ===== GALLERY DATA =====
 const galleryImages = [
-    { src: 'public/assets/gallery/cover.jpg.jpeg', title: 'Featured Mural', category: 'mural' },
-    { src: 'public/assets/gallery/airnav kualanamu-02.jpg.jpeg', title: 'Airport Mural', category: 'mural' },
-    { src: 'public/assets/gallery/Salinan dari REELS MURAL MEDAN POST (3).jpg.jpeg', title: 'Street Mural', category: 'mural' },
-    { src: 'public/assets/gallery/5.jpg.jpeg', title: 'Artistic Mural', category: 'mural' },
-    { src: 'public/assets/gallery/20250816_141433.jpg.jpeg', title: 'Wall Art', category: 'mural' },
-    { src: 'public/assets/gallery/20250816_141408.jpg.jpeg', title: 'Mural Detail', category: 'mural' },
-    { src: 'public/assets/gallery/20250816_141355.jpg.jpeg', title: 'Creative Mural', category: 'mural' },
-    { src: 'public/assets/gallery/Pemuda Batak 3.jpg.jpeg', title: 'Cultural Canvas', category: 'canvas' },
-    { src: 'public/assets/gallery/Guan Yu Kuda 4.jpg.jpeg', title: 'Guan Yu Canvas', category: 'canvas' },
-    { src: 'public/assets/gallery/Ikan Koi 2.jpg.jpeg', title: 'Koi Fish Canvas', category: 'canvas' },
-    { src: 'public/assets/gallery/Beige and Gray Minimalist Painting Frame Mockup Instagram Post_20240929_151202_0000.png', title: 'Canvas Mockup', category: 'canvas' },
-    { src: 'public/assets/gallery/Grey 3D Industrial Style Wall Frame Mockup Instagram Post.jpg.jpeg', title: 'Frame Mockup', category: 'canvas' },
-    { src: 'public/assets/gallery/cover (1).jpg.jpeg', title: 'Canvas Art', category: 'canvas' },
-    { src: 'public/assets/gallery/Salinan dari REELS MURAL MEDAN POST (1).jpg.jpeg', title: 'Mural Project', category: 'mural' },
-    { src: 'public/assets/gallery/Salinan Salinan dari REELS MURAL MEDAN POST (21).jpg.jpeg', title: 'Mural Showcase', category: 'mural' }
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png', title: 'Featured Mural', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/46a38d06-ee40-4afb-8385-70e77e89a7bb.png', title: 'Wall Mural Art', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/8e45df46-6676-465f-a8f3-a6d528e55221.png', title: 'Canvas Painting', category: 'canvas' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/273c6c69-6ae8-4e00-ad02-3f3a6828c987.png', title: 'Custom Commission', category: 'canvas' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/e3ac2689-327e-4540-8118-9ae275a2c7aa.png', title: 'Studio Artwork', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/2d2ef8c2-557f-487b-b12a-65a4da7aa377.png', title: 'Urban Mural', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/1b856f1c-0b7f-46dc-8c11-9c1166ac3695.png', title: 'Artist at Work', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/a422bfd0-e71d-4e7b-b8c7-935d2888d82a.png', title: 'Creative Space', category: 'canvas' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/ef0c502e-018f-4b8f-97a0-358543898024.png', title: 'Street Art Mural', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png', title: 'Interior Mural', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/8e45df46-6676-465f-a8f3-a6d528e55221.png', title: 'Abstract Canvas', category: 'canvas' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/273c6c69-6ae8-4e00-ad02-3f3a6828c987.png', title: 'Portrait Canvas', category: 'canvas' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/46a38d06-ee40-4afb-8385-70e77e89a7bb.png', title: 'Exterior Mural', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/a422bfd0-e71d-4e7b-b8c7-935d2888d82a.png', title: 'Gallery Display', category: 'canvas' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/2d2ef8c2-557f-487b-b12a-65a4da7aa377.png', title: 'Mural Project', category: 'mural' },
+    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/ef0c502e-018f-4b8f-97a0-358543898024.png', title: 'Mural Showcase', category: 'mural' }
 ];
 
 // ===== TEAM DATA =====
 const teamMembers = [
-    { 
-        image: 'public/assets/team/owner-1.jpeg', 
-        name: 'Owner', 
+    {
+        image: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png',
+        name: 'Lead Artist',
         role: 'Founder & Master Muralist',
         bio: 'Passionate about transforming spaces with art'
     },
-    { 
-        image: 'public/assets/team/muralis-1.jpeg', 
-        name: 'Muralist', 
+    {
+        image: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/e3ac2689-327e-4540-8118-9ae275a2c7aa.png',
+        name: 'Creative Director',
         role: 'Senior Muralist',
         bio: 'Specializing in large-scale mural projects'
     },
-    // { 
-    //     image: '/images/MuralArtist.jpg', 
-    //     name: 'Artist', 
-    //     role: 'Canvas & Mural Artist',
-    //     bio: 'Expert in both traditional and modern techniques'
-    // },
-    // { 
-    //     image: 'assets/gallery/Gemini_Generated_Image_mp8p54mp8p54mp8p.jpg.jpeg', 
-    //     name: 'Team Member', 
-    //     role: 'Mural Assistant',
-    //     bio: 'Bringing fresh perspectives to every project'
-    // },
-    // { 
-    //     image: 'assets/gallery/IMG-20250726-WA0004 (1)/images/Mural.jpg', 
-    //     name: 'Artist', 
-    //     role: 'Canvas Specialist',
-    //     bio: 'Creating beautiful canvas artworks'
-    // }
+    {
+        image: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/273c6c69-6ae8-4e00-ad02-3f3a6828c987.png',
+        name: 'Artist',
+        role: 'Canvas & Mural Artist',
+        bio: 'Expert in both traditional and modern techniques'
+    },
+    {
+        image: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/a422bfd0-e71d-4e7b-b8c7-935d2888d82a.png',
+        name: 'Team Member',
+        role: 'Mural Assistant',
+        bio: 'Bringing fresh perspectives to every project'
+    }
 ];
 
 // ===== DOM ELEMENTS =====
@@ -62,22 +57,78 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 const lightboxCaption = document.getElementById('lightboxCaption');
+const lightboxCounter = document.getElementById('lightboxCounter');
 const lightboxClose = document.querySelector('.lightbox-close');
 const lightboxPrev = document.querySelector('.lightbox-prev');
 const lightboxNext = document.querySelector('.lightbox-next');
 const contactForm = document.getElementById('contactForm');
+const cursorDot = document.getElementById('cursorDot');
+const cursorRing = document.getElementById('cursorRing');
+const toast = document.getElementById('toast');
 
 let currentImageIndex = 0;
 let currentFilter = 'all';
+let mouseX = 0, mouseY = 0;
+let ringX = 0, ringY = 0;
+
+// ===== CUSTOM CURSOR =====
+const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+if (!isTouchDevice && cursorDot && cursorRing) {
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        cursorDot.style.left = mouseX + 'px';
+        cursorDot.style.top = mouseY + 'px';
+    });
+
+    const animateRing = () => {
+        ringX += (mouseX - ringX) * 0.15;
+        ringY += (mouseY - ringY) * 0.15;
+        cursorRing.style.left = ringX + 'px';
+        cursorRing.style.top = ringY + 'px';
+        requestAnimationFrame(animateRing);
+    };
+    animateRing();
+
+    // Hover effect on interactive elements
+    const hoverTargets = document.querySelectorAll('a, button, .gallery-item, .service-card, .team-member, .filter-btn, .social-link, input, select, textarea');
+    hoverTargets.forEach(el => {
+        el.addEventListener('mouseenter', () => cursorRing.classList.add('hover'));
+        el.addEventListener('mouseleave', () => cursorRing.classList.remove('hover'));
+    });
+}
 
 // ===== NAVBAR SCROLL EFFECT =====
+let lastScroll = 0;
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
+    const scrollY = window.scrollY;
+    if (scrollY > 80) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');
     }
-});
+    lastScroll = scrollY;
+}, { passive: true });
+
+// ===== ACTIVE NAV LINK ON SCROLL =====
+const sections = document.querySelectorAll('section[id]');
+const updateActiveNav = () => {
+    const scrollY = window.scrollY + 150;
+    sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+        const link = document.querySelector(`.nav-link[href="#${id}"]`);
+        if (link) {
+            if (scrollY >= top && scrollY < top + height) {
+                navLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            }
+        }
+    });
+};
+window.addEventListener('scroll', updateActiveNav, { passive: true });
 
 // ===== MOBILE MENU TOGGLE =====
 hamburger.addEventListener('click', () => {
@@ -91,66 +142,82 @@ navLinks.forEach(link => {
         e.preventDefault();
         const targetId = link.getAttribute('href');
         const targetSection = document.querySelector(targetId);
-        
         if (targetSection) {
             const offsetTop = targetSection.offsetTop - 80;
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-            });
+            window.scrollTo({ top: offsetTop, behavior: 'smooth' });
         }
-        
-        // Close mobile menu
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
     });
 });
 
-// ===== PARALLAX EFFECT =====
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const parallaxBg = document.querySelector('.hero-background');
-    const parallaxElements = document.querySelectorAll('.parallax-element');
-    
-    if (parallaxBg) {
-        parallaxBg.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-    
-    parallaxElements.forEach(element => {
-        const speed = 0.1;
-        const yPos = -(scrolled * speed);
-        element.style.transform = `translateY(${yPos}px)`;
-    });
-});
-
 // ===== SCROLL REVEAL ANIMATION =====
-const revealElements = () => {
-    const reveals = document.querySelectorAll('.reveal');
-    
-    reveals.forEach(element => {
-        const windowHeight = window.innerHeight;
-        const elementTop = element.getBoundingClientRect().top;
-        const elementVisible = 150;
-        
-        if (elementTop < windowHeight - elementVisible) {
-            element.classList.add('active');
+const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const delay = entry.target.dataset.delay || 0;
+            setTimeout(() => {
+                entry.target.classList.add('active');
+            }, parseFloat(delay) * 1000);
+            revealObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+
+const observeReveals = () => {
+    document.querySelectorAll('.reveal-up, .reveal-fade, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
+        if (!el.classList.contains('active')) {
+            revealObserver.observe(el);
         }
     });
 };
 
-window.addEventListener('scroll', revealElements);
+// ===== COUNTER ANIMATION =====
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = parseInt(el.dataset.target);
+            let current = 0;
+            const increment = target / 60;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                el.textContent = Math.floor(current);
+            }, 25);
+            counterObserver.unobserve(el);
+        }
+    });
+}, { threshold: 0.5 });
+
+document.querySelectorAll('.stat-number[data-target]').forEach(el => {
+    counterObserver.observe(el);
+});
+
+// ===== PARALLAX ON HERO =====
+window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    const heroBg = document.querySelector('.hero-bg-layer');
+    if (heroBg && scrolled < window.innerHeight) {
+        heroBg.style.transform = `translateY(${scrolled * 0.3}px)`;
+    }
+}, { passive: true });
 
 // ===== LOAD GALLERY =====
 const loadGallery = (filter = 'all') => {
     galleryGrid.innerHTML = '';
-    
-    const filteredImages = filter === 'all' 
-        ? galleryImages 
+
+    const filteredImages = filter === 'all'
+        ? galleryImages
         : galleryImages.filter(img => img.category === filter);
-    
+
     filteredImages.forEach((image, index) => {
         const galleryItem = document.createElement('div');
-        galleryItem.className = 'gallery-item reveal';
+        galleryItem.className = 'gallery-item reveal-scale';
+        galleryItem.dataset.delay = (index * 0.08).toFixed(2);
         galleryItem.innerHTML = `
             <img src="${image.src}" alt="${image.title}" loading="lazy">
             <div class="gallery-overlay">
@@ -158,34 +225,52 @@ const loadGallery = (filter = 'all') => {
                     <h4>${image.title}</h4>
                     <p>${image.category.charAt(0).toUpperCase() + image.category.slice(1)}</p>
                 </div>
+                <div class="view-icon">
+                    <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </div>
             </div>
         `;
-        
+
         galleryItem.addEventListener('click', () => {
             openLightbox(filteredImages, index);
         });
-        
+
+        // Add cursor hover for dynamically created items
+        if (!isTouchDevice && cursorRing) {
+            galleryItem.addEventListener('mouseenter', () => cursorRing.classList.add('hover'));
+            galleryItem.addEventListener('mouseleave', () => cursorRing.classList.remove('hover'));
+        }
+
         galleryGrid.appendChild(galleryItem);
     });
-    
-    // Trigger reveal animation for new items
-    setTimeout(revealElements, 100);
+
+    // Re-observe new elements
+    setTimeout(observeReveals, 50);
 };
 
 // ===== GALLERY FILTERS =====
 filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-        // Remove active class from all buttons
         filterBtns.forEach(b => b.classList.remove('active'));
-        // Add active class to clicked button
         btn.classList.add('active');
-        
-        // Get filter value and load gallery
         const filter = btn.getAttribute('data-filter');
         currentFilter = filter;
-        loadGallery(filter);
+
+        // Add fade-out effect
+        galleryGrid.style.opacity = '0';
+        galleryGrid.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            loadGallery(filter);
+            galleryGrid.style.opacity = '1';
+            galleryGrid.style.transform = 'translateY(0)';
+        }, 300);
     });
 });
+
+// Add transition to gallery grid
+if (galleryGrid) {
+    galleryGrid.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+}
 
 // ===== LIGHTBOX FUNCTIONALITY =====
 const openLightbox = (images, index) => {
@@ -193,10 +278,9 @@ const openLightbox = (images, index) => {
     const image = images[index];
     lightboxImg.src = image.src;
     lightboxCaption.textContent = image.title;
+    lightboxCounter.textContent = `${index + 1} / ${images.length}`;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
-    
-    // Store images array for navigation
     lightbox.images = images;
 };
 
@@ -208,84 +292,81 @@ const closeLightbox = () => {
 const showPrevImage = () => {
     const images = lightbox.images;
     if (!images) return;
-    
     currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+    lightboxImg.style.animation = 'none';
+    lightboxImg.offsetHeight; // trigger reflow
+    lightboxImg.style.animation = 'lightboxIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
     lightboxImg.src = images[currentImageIndex].src;
     lightboxCaption.textContent = images[currentImageIndex].title;
+    lightboxCounter.textContent = `${currentImageIndex + 1} / ${images.length}`;
 };
 
 const showNextImage = () => {
     const images = lightbox.images;
     if (!images) return;
-    
     currentImageIndex = (currentImageIndex + 1) % images.length;
+    lightboxImg.style.animation = 'none';
+    lightboxImg.offsetHeight;
+    lightboxImg.style.animation = 'lightboxIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
     lightboxImg.src = images[currentImageIndex].src;
     lightboxCaption.textContent = images[currentImageIndex].title;
+    lightboxCounter.textContent = `${currentImageIndex + 1} / ${images.length}`;
 };
 
 lightboxClose.addEventListener('click', closeLightbox);
 lightboxPrev.addEventListener('click', showPrevImage);
 lightboxNext.addEventListener('click', showNextImage);
 
-// Close lightbox on background click
-lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) {
-        closeLightbox();
-    }
-});
+document.querySelector('.lightbox-backdrop').addEventListener('click', closeLightbox);
 
-// Keyboard navigation for lightbox
 document.addEventListener('keydown', (e) => {
     if (!lightbox.classList.contains('active')) return;
-    
-    if (e.key === 'Escape') {
-        closeLightbox();
-    } else if (e.key === 'ArrowLeft') {
-        showPrevImage();
-    } else if (e.key === 'ArrowRight') {
-        showNextImage();
-    }
+    if (e.key === 'Escape') closeLightbox();
+    else if (e.key === 'ArrowLeft') showPrevImage();
+    else if (e.key === 'ArrowRight') showNextImage();
 });
 
 // ===== LOAD TEAM =====
 const loadTeam = () => {
     teamGrid.innerHTML = '';
-    
-    teamMembers.forEach(member => {
+
+    teamMembers.forEach((member, index) => {
         const teamMember = document.createElement('div');
-        teamMember.className = 'team-member reveal';
+        teamMember.className = 'team-member reveal-up';
+        teamMember.dataset.delay = (index * 0.15).toFixed(2);
         teamMember.innerHTML = `
-            <div class="team-image">
+            <div class="team-image-wrap">
                 <img src="${member.image}" alt="${member.name}" loading="lazy">
-                <div class="team-overlay">
-                    <p>${member.bio}</p>
+                <div class="team-paint-overlay">
+                    <p>"${member.bio}"</p>
                 </div>
             </div>
             <h3>${member.name}</h3>
             <p class="role">${member.role}</p>
         `;
-        
+
+        if (!isTouchDevice && cursorRing) {
+            teamMember.addEventListener('mouseenter', () => cursorRing.classList.add('hover'));
+            teamMember.addEventListener('mouseleave', () => cursorRing.classList.remove('hover'));
+        }
+
         teamGrid.appendChild(teamMember);
     });
-    
-    // Trigger reveal animation for team items
-    setTimeout(revealElements, 100);
+
+    setTimeout(observeReveals, 50);
 };
 
 // ===== CONTACT FORM SUBMISSION =====
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    
     const formData = new FormData(contactForm);
     const data = Object.fromEntries(formData);
-    
-    // Here you would typically send the data to a server
     console.log('Form submitted:', data);
-    
-    // Show success message
-    alert('Thank you for your message! We will get back to you soon.');
-    
-    // Reset form
+
+    // Show toast
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 4000);
+
     contactForm.reset();
 });
 
@@ -294,73 +375,53 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const href = this.getAttribute('href');
         if (href === '#') return;
-        
         e.preventDefault();
         const target = document.querySelector(href);
-        
         if (target) {
             const offsetTop = target.offsetTop - 80;
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-            });
+            window.scrollTo({ top: offsetTop, behavior: 'smooth' });
         }
     });
 });
 
-// ===== LAZY LOADING IMAGES =====
-const lazyLoadImages = () => {
-    const images = document.querySelectorAll('img[loading="lazy"]');
-    
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.src = img.src;
-                img.classList.add('loaded');
-                observer.unobserve(img);
-            }
-        });
+// ===== TILT EFFECT ON SERVICE CARDS =====
+document.querySelectorAll('.service-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateX = (y - centerY) / 20;
+        const rotateY = (centerX - x) / 20;
+        card.style.transform = `translateY(-12px) perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
     });
-    
-    images.forEach(img => imageObserver.observe(img));
-};
 
-// ===== INITIALIZE ON PAGE LOAD =====
+    card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+    });
+});
+
+// ===== INITIALIZE =====
 document.addEventListener('DOMContentLoaded', () => {
     loadGallery();
     loadTeam();
-    revealElements();
-    lazyLoadImages();
-    
-    // Add reveal class to sections
-    const sections = document.querySelectorAll('section > .container > *');
-    sections.forEach(section => {
-        if (!section.classList.contains('hero-content')) {
-            section.classList.add('reveal');
-        }
+    observeReveals();
+
+    // Animate hero elements on load
+    document.querySelectorAll('.hero .reveal-up, .hero .reveal-fade').forEach(el => {
+        const delay = el.dataset.delay || 0;
+        setTimeout(() => {
+            el.classList.add('active');
+        }, parseFloat(delay) * 1000);
     });
 });
-
-// ===== PERFORMANCE OPTIMIZATION =====
-// Debounce scroll events
-let scrollTimeout;
-window.addEventListener('scroll', () => {
-    if (scrollTimeout) {
-        window.cancelAnimationFrame(scrollTimeout);
-    }
-    
-    scrollTimeout = window.requestAnimationFrame(() => {
-        revealElements();
-    });
-}, { passive: true });
 
 // ===== PRELOAD CRITICAL IMAGES =====
 const preloadImages = () => {
     const criticalImages = [
-        'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png'
+        'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/1b856f1c-0b7f-46dc-8c11-9c1166ac3695.png'
     ];
-    
     criticalImages.forEach(src => {
         const img = new Image();
         img.src = src;
@@ -369,4 +430,4 @@ const preloadImages = () => {
 
 preloadImages();
 
-console.log('ArtMural Studio website loaded successfully!');
+console.log('MuralMedan Studio — Living Canvas Edition loaded!');
