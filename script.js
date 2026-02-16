@@ -21,13 +21,13 @@ const galleryImages = [
 const teamMembers = [
     {
         image: 'public/assets/team/owner-1.jpeg',
-        name: 'Lead Artist',
+        name: 'Owner',
         role: 'Founder & Master Muralist',
         bio: 'Passionate about transforming spaces with art'
     },
     {
         image: 'public/assets/team/muralis-1.jpeg',
-        name: 'Creative Director',
+        name: 'Muralist',
         role: 'Senior Muralist',
         bio: 'Specializing in large-scale mural projects'
     },
