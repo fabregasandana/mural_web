@@ -1600,7 +1600,7 @@ section { padding: 120px 0; position: relative; z-index: 1; }
     transform: translateX(-50%);
     background: linear-gradient(135deg, var(--accent), var(--accent-light));
     color: var(--bg-deep);
-    padding: 16px 60px;
+    padding: 16px 45px;
     border-radius: 9999px;
     display: flex;
     align-items: center;
@@ -1617,7 +1617,6 @@ section { padding: 120px 0; position: relative; z-index: 1; }
     .services-grid { grid-template-columns: repeat(2, 1fr); }
     .contact-layout { grid-template-columns: 1fr; gap: 50px; }
     .footer-top { grid-template-columns: 1fr; }
-    .toast{ overflow: hidden; }
 }
 
 @media (max-width: 768px) {
