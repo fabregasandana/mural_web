@@ -1,49 +1,36 @@
 // ===== GALLERY DATA =====
 const galleryImages = [
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png', title: 'Featured Mural', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/46a38d06-ee40-4afb-8385-70e77e89a7bb.png', title: 'Wall Mural Art', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/8e45df46-6676-465f-a8f3-a6d528e55221.png', title: 'Canvas Painting', category: 'canvas' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/273c6c69-6ae8-4e00-ad02-3f3a6828c987.png', title: 'Custom Commission', category: 'canvas' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/e3ac2689-327e-4540-8118-9ae275a2c7aa.png', title: 'Studio Artwork', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/2d2ef8c2-557f-487b-b12a-65a4da7aa377.png', title: 'Urban Mural', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/1b856f1c-0b7f-46dc-8c11-9c1166ac3695.png', title: 'Artist at Work', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/a422bfd0-e71d-4e7b-b8c7-935d2888d82a.png', title: 'Creative Space', category: 'canvas' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/ef0c502e-018f-4b8f-97a0-358543898024.png', title: 'Street Art Mural', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png', title: 'Interior Mural', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/8e45df46-6676-465f-a8f3-a6d528e55221.png', title: 'Abstract Canvas', category: 'canvas' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/273c6c69-6ae8-4e00-ad02-3f3a6828c987.png', title: 'Portrait Canvas', category: 'canvas' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/46a38d06-ee40-4afb-8385-70e77e89a7bb.png', title: 'Exterior Mural', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/a422bfd0-e71d-4e7b-b8c7-935d2888d82a.png', title: 'Gallery Display', category: 'canvas' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/2d2ef8c2-557f-487b-b12a-65a4da7aa377.png', title: 'Mural Project', category: 'mural' },
-    { src: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/ef0c502e-018f-4b8f-97a0-358543898024.png', title: 'Mural Showcase', category: 'mural' }
+    { src: 'public/assets/gallery/IMG-20250726-WA0004 (1).jpg.jpeg', title: 'Featured Mural', category: 'mural' },
+    { src: 'public/assets/gallery/cover.jpg.jpeg', title: 'Wall Mural Art', category: 'mural' },
+    { src: 'public/assets/gallery/Guan Yu Kuda 4.jpg.jpeg', title: 'Canvas Painting', category: 'canvas' },
+    { src: 'public/assets/gallery/airnav kualanamu-06.jpg.jpeg', title: 'Custom Commission', category: 'canvas' },
+    { src: 'public/assets/gallery/20250816_141355.jpg.jpeg', title: 'Studio Artwork', category: 'mural' },
+    { src: 'public/assets/gallery/Beige and Gray Minimalist Painting Frame Mockup Instagram Post_20240929_151202_0000.png', title: 'Urban Mural', category: 'mural' },
+    { src: 'public/assets/gallery/Gemini_Generated_Image_mp8p54mp8p54mp8p.jpg.jpeg', title: 'Artist at Work', category: 'mural' },
+    { src: 'public/assets/gallery/Grey 3D Industrial Style Wall Frame Mockup Instagram Post.jpg.jpeg', title: 'Creative Space', category: 'canvas' },
+    { src: 'public/assets/gallery/IMG_3375.PNG', title: 'Street Art Mural', category: 'mural' },
+    { src: 'public/assets/gallery/IMG_3373.PNG', title: 'Interior Mural', category: 'mural' },
+    { src: 'public/assets/gallery/IMG_3371.PNG', title: 'Abstract Canvas', category: 'canvas' },
+    { src: 'public/assets/gallery/Pemuda Batak 3.jpg.jpeg', title: 'Portrait Canvas', category: 'canvas' },
+    { src: 'public/assets/gallery/Salinan dari REELS MURAL MEDAN POST (1).jpg.jpeg', title: 'Exterior Mural', category: 'mural' },
+    { src: 'public/assets/gallery/Salinan dari REELS MURAL MEDAN POST (3).jpg.jpeg', title: 'Gallery Display', category: 'canvas' },
+    { src: 'public/assets/gallery/Salinan Salinan dari REELS MURAL MEDAN POST (21).jpg.jpeg', title: 'Mural Project', category: 'mural' },
 ];
 
 // ===== TEAM DATA =====
 const teamMembers = [
     {
-        image: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/f60e71fe-fb57-4254-acc0-c1c2c557ecb1.png',
+        image: 'public/assets/team/owner-1.jpeg',
         name: 'Lead Artist',
         role: 'Founder & Master Muralist',
         bio: 'Passionate about transforming spaces with art'
     },
     {
-        image: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/e3ac2689-327e-4540-8118-9ae275a2c7aa.png',
+        image: 'public/assets/team/muralis-1.jpeg',
         name: 'Creative Director',
         role: 'Senior Muralist',
         bio: 'Specializing in large-scale mural projects'
     },
-    {
-        image: 'https://mgx-backend-cdn.metadl.com/generate/images/691914/2026-02-11/273c6c69-6ae8-4e00-ad02-3f3a6828c987.png',
-        name: 'Artist',
-        role: 'Canvas & Mural Artist',
-        bio: 'Expert in both traditional and modern techniques'
-    },
-    {
-        image: 'https://mgx-backend-cdn.metadl.com/generate/images/683429/2026-02-14/a422bfd0-e71d-4e7b-b8c7-935d2888d82a.png',
-        name: 'Team Member',
-        role: 'Mural Assistant',
-        bio: 'Bringing fresh perspectives to every project'
-    }
 ];
 
 // ===== DOM ELEMENTS =====
