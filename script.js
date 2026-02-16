@@ -356,19 +356,6 @@ const loadTeam = () => {
     setTimeout(observeReveals, 50);
 };
 
-// ===== CONTACT FORM SUBMISSION =====
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const formData = new FormData(contactForm);
-    const data = Object.fromEntries(formData);
-    console.log('Form submitted:', data);
-
-    // Show toast
-    toast.classList.add('show');
-    setTimeout(() => toast.classList.remove('show'), 4000);
-
-    contactForm.reset();
-});
 
 // ===== SMOOTH SCROLL FOR ALL ANCHOR LINKS =====
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
